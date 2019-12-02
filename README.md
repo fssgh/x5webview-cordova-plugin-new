@@ -8,20 +8,20 @@ x5webview-cordova-plugin-new 是基于cordova-android:8.1中的cordovaLib中的e
 
 ```
 2.向ionic4,5的cordova工程中添加x5webview插件指引:
->(1)修改cordova-plugin-ionic-webview插件中的
-    >>IonicWebViewEngine.java：
-    >>><p>android.webkit.WebResourceRequest  ——> import com.tencent.smtt.export.external.interfaces.WebResourceRequest;</p>
-    >>><p>android.webkit.WebResourceResponse  ——> import com.tencent.smtt.export.external.interfaces.WebResourceResponse;</p>
-    >>><p>android.webkit.WebSettings ——> import com.tencent.smtt.sdk.WebSettings;</p>
-    >>><p>android.webkit.WebView ——> import com.tencent.smtt.sdk.WebView;</p>
-    >>><p>import org.apache.cordova.engine.SystemWebViewClient; ——> import org.apache.cordova.x5engine.X5WebViewClient;</p>
-    >>><p>import org.apache.cordova.engine.SystemWebViewEngine; ——> import org.apache.cordova.x5engine.X5WebViewEngine;</p>
-    >>><p>import org.apache.cordova.engine.SystemWebView; ——> import org.apache.cordova.x5engine.X5WebView;</p>
-    >>WebViewLocalServer.java：
-    >>><p>android.webkit.WebResourceRequest  ——> import com.tencent.smtt.export.external.interfaces.WebResourceRequest;</p>
-    >>><p>android.webkit.WebResourceResponse ——> import com.tencent.smtt.export.external.interfaces.WebResourceResponse;</p>
->(2)修改x5webview-cordova-plugin-new插件中的plugin.xml
-    >>注释掉：
+>1.修改cordova-plugin-ionic-webview插件中的：
+>>IonicWebViewEngine.java：
+>>><p>android.webkit.WebResourceRequest  ——> import com.tencent.smtt.export.external.interfaces.WebResourceRequest;</p>
+>>><p>android.webkit.WebResourceResponse  ——> import com.tencent.smtt.export.external.interfaces.WebResourceResponse;</p>
+>>><p>android.webkit.WebSettings ——> import com.tencent.smtt.sdk.WebSettings;</p>
+>>><p>android.webkit.WebView ——> import com.tencent.smtt.sdk.WebView;</p>
+>>><p>import org.apache.cordova.engine.SystemWebViewClient; ——> import org.apache.cordova.x5engine.X5WebViewClient;</p>
+>>><p>import org.apache.cordova.engine.SystemWebViewEngine; ——> import org.apache.cordova.x5engine.X5WebViewEngine;</p>
+>>><p>import org.apache.cordova.engine.SystemWebView; ——> import org.apache.cordova.x5engine.X5WebView;</p>
+>>WebViewLocalServer.java：
+>>><p>android.webkit.WebResourceRequest  ——> import com.tencent.smtt.export.external.interfaces.WebResourceRequest;</p>
+>>><p>android.webkit.WebResourceResponse ——> import com.tencent.smtt.export.external.interfaces.WebResourceResponse;</p>
+>2.修改x5webview-cordova-plugin-new插件中的plugin.xml
+>>注释掉：
 >>```
 >><preference name="webView" value="org.apache.cordova.x5engine.X5WebViewEngine"/>
 >>```
