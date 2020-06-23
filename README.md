@@ -1,10 +1,11 @@
- # x5webview-cordova-plugin-new
-x5webview-cordova-plugin-new 是基于cordova-android:8.1中的cordovaLib中的engines 模块（参考了 [x5webview-cordova-plugin](https://github.com/runner525/x5webview-cordova-plugin/) 项目）改成使用腾讯浏览服务(TBS)x5内核的webView engines，为cordova框架提供的用于android平台的cordova插件，旨在为android平台提供更好的webview浏览体验与兼容性．
+ # x5webview-cordova-plugin
+x5webview-cordova-plugin 是腾讯浏览服务(TBS)为cordova框架提供的用于android平台的cordova插件，旨在为android平台提供更好的webview浏览体验．
 
 一．接入步骤：
-1.向cordiva工程中添加x5webview插件：
+1.向cordiva工程中添加x5webview插件,有如下两种方式：
 ```
-(1)cordova plugin add https://github.com/fssgh/x5webview-cordova-plugin-new.git
+(1)cordova plugin add x5webview-cordova-plugin 
+(2)cordova plugin add https://github.com/runner525/x5webview-cordova-plugin.git
 
 ```
 2.向ionic4,5的cordova工程中添加x5webview插件指引:
