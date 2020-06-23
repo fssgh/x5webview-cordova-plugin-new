@@ -182,6 +182,13 @@ public class X5WebChromeClient extends WebChromeClient {
 
     }
 
+    // API level 7 is required for this, see if we could lower this using something else
+    // @Override
+    // @SuppressWarnings("deprecation")
+    // public void onShowCustomView(View view, IX5WebChromeClient.CustomViewCallback callback) {
+    //     parentEngine.getCordovaWebView().showCustomView(view, callback);
+    // }
+
     @Override
     @SuppressWarnings("deprecation")
     public void onHideCustomView() {

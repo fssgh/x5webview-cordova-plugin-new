@@ -1,4 +1,41 @@
 {
+  "_from": "x5webview-cordova-plugin",
+  "_id": "x5webview-cordova-plugin@1.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-prNst6OTIm9SPJiY6P8j5SAdRrtJD/oNm+1E8cPDm6ngLBaIasNZd7XhLqlfONJpTrytuyb6OGOVJUMQdjICIg==",
+  "_location": "/x5webview-cordova-plugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "x5webview-cordova-plugin",
+    "name": "x5webview-cordova-plugin",
+    "escapedName": "x5webview-cordova-plugin",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/x5webview-cordova-plugin/-/x5webview-cordova-plugin-1.1.2.tgz",
+  "_shasum": "3bde6fe71054944759a80fa134a1429b217433ae",
+  "_spec": "x5webview-cordova-plugin",
+  "_where": "D:\\ionicWorkSpace\\IONIC4\\test",
+  "author": {
+    "name": "lz"
+  },
+  "bugs": {
+    "url": "https://github.com/runner525/x5webview-cordova-plugin/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "x5webview-cordova-plugin",
+    "platforms": [
+      "android"
+    ]
+  },
   "deprecated": false,
   "description": "Changes the default WebView to x5engine",
   "engines": [
@@ -11,7 +48,7 @@
       "version": ">=5.2.0"
     }
   ],
-  "homepage": "https://github.com/fssgh/x5webview-cordova-plugin-new#readme",
+  "homepage": "https://github.com/runner525/x5webview-cordova-plugin#readme",
   "keywords": [
     "cordova",
     "chromium",
@@ -21,10 +58,10 @@
     "cordova-android"
   ],
   "license": "Apache 2.0",
-  "name": "x5webview-cordova-plugin-new",
+  "name": "x5webview-cordova-plugin",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fssgh/x5webview-cordova-plugin-new.git"
+    "url": "git+https://github.com/runner525/x5webview-cordova-plugin.git"
   },
-  "version": "1.0.0"
+  "version": "1.1.2"
 }
