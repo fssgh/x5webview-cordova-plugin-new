@@ -12,8 +12,10 @@ x5webview-cordova-plugin-new 是基于cordova-android:8.1中的cordovaLib中的e
 >>IonicWebViewEngine.java：
 >>><p>android.webkit.WebResourceRequest  ——> import com.tencent.smtt.export.external.interfaces.WebResourceRequest;</p>
 >>><p>android.webkit.WebResourceResponse  ——> import com.tencent.smtt.export.external.interfaces.WebResourceResponse;</p>
+>>><p>android.webkit.ServiceWorkerClient  ——> com.tencent.smtt.export.external.interfaces.ServiceWorkerClient;</p>
 >>><p>android.webkit.WebSettings ——> import com.tencent.smtt.sdk.WebSettings;</p>
 >>><p>android.webkit.WebView ——> import com.tencent.smtt.sdk.WebView;</p>
+>>><p>android.webkit.ServiceWorkerController ——> com.tencent.smtt.sdk.ServiceWorkerController;</p>
 >>><p>import org.apache.cordova.engine.SystemWebViewClient; ——> import org.apache.cordova.x5engine.X5WebViewClient;</p>
 >>><p>import org.apache.cordova.engine.SystemWebViewEngine; ——> import org.apache.cordova.x5engine.X5WebViewEngine;</p>
 >>><p>import org.apache.cordova.engine.SystemWebView; ——> import org.apache.cordova.x5engine.X5WebView;</p>

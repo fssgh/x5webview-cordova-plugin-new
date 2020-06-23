@@ -19,7 +19,7 @@
     <platform name="android">
 
         <config-file target="config.xml" parent="/*">
-            <preference name="webView" value="org.apache.cordova.x5engine.X5WebViewEngine"/>
+            <!-- <preference name="webView" value="org.apache.cordova.x5engine.X5WebViewEngine"/> -->
             <preference name="appUserAgent" value="x5webview"/>
         </config-file>
 
@@ -41,9 +41,7 @@
         <source-file src="platforms/android/src/org/apache/cordova/x5engine/X5WebViewClient.java" target-dir="src/org/apache/cordova/x5engine"/>
         <source-file src="platforms/android/src/org/apache/cordova/x5engine/X5WebViewEngine.java" target-dir="src/org/apache/cordova/x5engine"/>
 
-        <source-file src="platforms/android/libs/tbs_sdk_thirdapp_v4.3.0.1148_43697.jar" target-dir="libs"/>
-	    <source-file src="platforms/android/libs/armeabi/liblbs.so" target-dir="libs/armeabi"/>
-
+        <source-file src="platforms/android/libs/tbs_sdk_thirdapp_v4.3.0.3_43903.jar" target-dir="libs"/>
     </platform>
 
     <info>

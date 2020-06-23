@@ -17,7 +17,7 @@
        under the License.
  */
 
-package xxx.xxx.xxx.xxx;//改用自己cordova app的包名
+package com.henlee.app.shoyang;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -47,7 +47,7 @@ public class MainActivity extends CordovaActivity
 			public void onViewInitFinished(boolean arg0) {
 				// TODO Auto-generated method stub
 				//x5內核初始化完成的回调，为true表示x5内核加载成功，否则表示x5内核加载失败，会自动切换到系统内核。
-				Log.d("app", " onViewInitFinished x5WebView is " + arg0);
+				Log.d("shoyangApp", " onViewInitFinished x5WebView is " + arg0);
                  // Set by <content src="index.html" /> in config.xml
                 loadUrl(launchUrl);
 			}
